@@ -1,21 +1,73 @@
 body{
     background-color: #93BFCF;
+    text-align: center;
 }
 
-img{
+.title{    
+    color: #024158;
+    background-color: grey;
+    margin: 0 auto;
+    padding: 25px 0;    
+}
+
+h1{    
+    color: #024158; 
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.home{
+    font-size: 40px;
+    text-decoration: none;
+    border: solid;
+}
+
+.img{
     border-color: black;
     border-radius: 8px;
     border-style: solid;
     border-width: 5px;
     width: 20%;
     height: auto;
-
+    text-align: center;
+    margin: 20px 0 20px 0;
 } 
 
-h1{
+.h3{
     color: #024158;
 }
 
-h3{
-    color: #024158;
+.h4{
+    color: #024158;    
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.ul{
+    display: inline-block;
+}
+
+li{
+    font-size: 30px;
+}
+
+.letter{
+    font-size: 40px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+.bw{
+    font-size: 40px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+button{
+
+}
+
+button:hover{
+    background-color: grey;
+    font-size: 50px;
 }
